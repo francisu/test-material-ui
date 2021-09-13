@@ -11,6 +11,7 @@ import { top100Films } from './top-100-movies'
 
 it('finds my favorite movie', () => {
   cy.viewport(500, 700)
+  cy.waitForReact(5000, '#root');
   mount(
     <Autocomplete
       id="combo-box-demo"

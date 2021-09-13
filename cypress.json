@@ -3,5 +3,10 @@
     "componentFolder": "src",
     "testFiles": "**/*spec.{js,jsx,ts,tsx}"
   },
-  "viewportWidth": 500
+  "viewportWidth": 500,
+  "env": {
+    "cypress-react-selector": {
+      "root": "#root"
+    }
+  }
 }

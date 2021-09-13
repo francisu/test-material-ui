@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.pnp.cjs
 
 # testing
 /coverage
@@ -23,5 +24,11 @@ yarn-debug.log*
 yarn-error.log*
 .nyc_output
 cypress/videos
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
 
 .idea
